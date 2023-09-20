@@ -1,9 +1,10 @@
-What is the DOCTYPE Declaration in HTML?
+#### DOCTYPE declaration in HTML
+- All HTML documents must start with a <!DOCTYPE>
+- The declaration is not an HTML tag.
+- It is an "information" to the browser about what document type to expect.
+- In HTML5, the <!DOCTYPE> declaration is simple
 
->>The DOCTYPE declaration is the first line of an HTML document. It tells the browser which version of HTML the document is using.
-This is important because the browser can then use this information to render the document correctly.
+      <!DOCTYPE html>
+- In older documents (HTML 4 or XHTML), the declaration is more complicated because the declaration must refer to a DTD (Document Type Definition).
 
-The DOCTYPE declaration is not required, but it is good practice to include it. 
-This is because it helps to ensure that your document will be rendered correctly on all browsers.
-
-<!DOCTYPE html> 
+      <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
